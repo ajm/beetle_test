@@ -25,13 +25,15 @@ def read_file(in_fname) :
     # w[6]=LRT_Stat, w[7]=Pval, w[8]=Adj.Pval, w[9]=Q-value, w[10]=Result, w[11]=Note
 
     with open(in_fname) as f :
-
+	# parsing the file, skipping all "Single char" and "All gaps" rows, also too large omegas
         next(f)
 	global countingskipped
         omegas = []
 
         for line in iter(f) :
 	    if line.endswith("Single char\n") :
+		continue
+	    if line.endswith("All gaps\n") :
 		continue
             w = line.split()
 	    if float(w[3]) <= 5 :
@@ -44,6 +46,7 @@ def read_file(in_fname) :
 
 def main() :
     global countingskipped
+    global the_name
     countingskipped = 0
     if len(sys.argv) != 3 :
         # slr output files need to have a suffix ".slr" and in the same dir

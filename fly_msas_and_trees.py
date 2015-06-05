@@ -166,7 +166,7 @@ def get_genetree(species, symbol) :
             break
 
         except (IOError, httplib.HTTPException) :
-            print "\n\033[93mrestapi error with %s, %s, trying again in 5 seconds ..." % (species, symbol)
+            print "\n\033[93mrestapi error with %s, %s, trying again in 5 seconds ...\033[0m" % (species, symbol)
             catcher += 1
             time.sleep(5)
 
