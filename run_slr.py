@@ -152,8 +152,9 @@ def paml(configfile, resultfile) :
 def slr(configfile, resultfile) :
 
     print "\trunning Slr..."
-
+    
     command = "Slr %s" % configfile
+    command = "timeout 1h " + command
     #command += " > /dev/null 2> /dev/null"
     search = ''
 
@@ -171,17 +172,17 @@ def slr(configfile, resultfile) :
                 if lst[2] ==  "inf" :
                     file_cleanup(originalname, "Fail: Initial f was inf.")
                     print "\nInitial f was inf, exiting Slr of %s.\n" % originalname
-                    exit()
+                    exit(1)
                 elif len(str(lst[2])) > 50 :
                     file_cleanup(originalname, "Fail: Initial f was too big.")
                     print "\nInitial f was way too big, exiting Slr of %s.\n" % originalname
-                    exit()
+                    exit(1)
         if len(lst) >= 6 :
             search = lst[0] + lst[1] + lst[2] + lst[3] + lst[4] + lst[5]
             if search == "Alignmentcontainsstopcodons.Cannotcontinue." :
                 print "\nAlignment contained stop codons, exiting Slr of %s.\n" % originalname
                 file_cleanup(originalname, "Fail: Alignment contained stop codons.")
-                exit()
+                exit(1)
 
         if len(lst) == 4 :
             #search = lst[1] + lst[2] + lst[3] + lst[4] + lst[5]
@@ -189,7 +190,7 @@ def slr(configfile, resultfile) :
             if search == "lnL=inf" :
                 print "\nlnL was inf, exiting Slr of %s.\n" % originalname
                 file_cleanup(originalname, "Fail: lnL was inf.")
-                exit()
+                exit(1)
 
 
     op.close()
@@ -197,6 +198,8 @@ def slr(configfile, resultfile) :
 
     if not isfile(resultfile) :
         print >> stderr, "Got no Slr results for %s" % resultfile.replace("_", "")
+	print "\nThe run took too long, exiting Slr."
+	file_cleanup(originalname, "Fail: the run took too long.")
         exit(1)
 
     print "\tgot slr results %s" % resultfile.replace("_", "")
