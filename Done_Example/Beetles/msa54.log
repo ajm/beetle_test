@@ -1,0 +1,199 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.1.17 released by Alexandros Stamatakis on February 5 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 238 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 23.36%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 10 inferences on the original alignment using 10 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 238
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-SSE3 -m GTRGAMMA -# 10 -p 37 -s msa54_.phy -n msa54_ 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.348 0.154 0.236 0.261 
+
+Inference[0]: Time 0.934645 GAMMA-based likelihood -3448.581349, best rearrangement setting 5
+Inference[1]: Time 0.931909 GAMMA-based likelihood -3448.482110, best rearrangement setting 5
+Inference[2]: Time 0.901342 GAMMA-based likelihood -3448.578823, best rearrangement setting 5
+Inference[3]: Time 0.938603 GAMMA-based likelihood -3448.463594, best rearrangement setting 5
+Inference[4]: Time 0.925864 GAMMA-based likelihood -3448.482766, best rearrangement setting 5
+Inference[5]: Time 0.914156 GAMMA-based likelihood -3448.587487, best rearrangement setting 5
+Inference[6]: Time 0.922209 GAMMA-based likelihood -3448.581297, best rearrangement setting 5
+Inference[7]: Time 0.929785 GAMMA-based likelihood -3448.482816, best rearrangement setting 5
+Inference[8]: Time 0.921147 GAMMA-based likelihood -3448.581104, best rearrangement setting 5
+Inference[9]: Time 0.921143 GAMMA-based likelihood -3448.482189, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 10 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -3446.318895 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa54_.RUN.0
+Inference[1] final GAMMA-based Likelihood: -3446.078659 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa54_.RUN.1
+Inference[2] final GAMMA-based Likelihood: -3446.318895 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa54_.RUN.2
+Inference[3] final GAMMA-based Likelihood: -3446.078655 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa54_.RUN.3
+Inference[4] final GAMMA-based Likelihood: -3446.078659 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa54_.RUN.4
+Inference[5] final GAMMA-based Likelihood: -3446.318895 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa54_.RUN.5
+Inference[6] final GAMMA-based Likelihood: -3446.318895 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa54_.RUN.6
+Inference[7] final GAMMA-based Likelihood: -3446.078659 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa54_.RUN.7
+Inference[8] final GAMMA-based Likelihood: -3446.318897 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa54_.RUN.8
+Inference[9] final GAMMA-based Likelihood: -3446.078659 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa54_.RUN.9
+
+
+Starting final GAMMA-based thorough Optimization on tree 3 likelihood -3446.078655 .... 
+
+Final GAMMA-based Score of best tree -3446.078655
+
+Program execution info written to /home/lauralaa/Example/Beetles/RAxML_info.msa54_
+Best-scoring ML tree written to: /home/lauralaa/Example/Beetles/RAxML_bestTree.msa54_
+
+Overall execution time: 9.773137 secs or 0.002715 hours or 0.000113 days
+
+
+running msa54.fasta
+	running raxml...
+	got tree file msa54_.tree
+	expect results in msa54.slr
+	running Slr...
+     seqfile:    msa54_.phy
+    treefile:    msa54_.tree
+     outfile:    msa54_.slr
+       kappa:    2.000000e+00
+       omega:    1.000000e-01
+      codonf:    0
+     nucleof:    0
+      aminof:    0
+  reoptimise:    1
+     nucfile:    nuc.dat
+   aminofile:    amino.dat
+positive_only:    0
+     gencode:    universal
+     timemem:    0
+       ldiff:    3.841459e+00
+     paramin:    
+    paramout:    
+skipsitewise:    0
+        seed:    0
+    saveseed:    1
+    freqtype:    0
+   cleandata:    0
+     branopt:    1
+    writetmp:    0
+     recover:    0
+
+# SLR "Sitewise Likelihood Ratio" selection detection program. Version 1.4.3
+# Redundency. Reduced sites from 333 to 245
+# Read seqfile file msa54_.phy. 10 species, 333 sites.
+# Read tree from msa54_.tree.
+(flyg4:0.402903, ((flyg9:0.003737, flyg2:0.011343 ):0.006702, ((flyg3:0.017547, (flyg10:0.008882, (flyg5:0.018248, (flyg7:0.003736, flyg8:0.013788 ):0.005281 ):0.007763 ):0.019731 ):0.010207, flyg6:0.028309 ):0.008266 ):0.393922, flyg1:1.217354 )
+# Reoptimising parameters, branches variable
+Initial	f: 3426.002206
+Step     f(x)      delta
+  1: 3362.474407 6.35278e+01    5 	  426.033
+  2: 3361.213942 1.26047e+00    8 	 1032.730
+  3: 3356.895637 4.31830e+00   18 	  544.873
+  4: 3351.508856 5.38678e+00   26 	  259.320
+  5: 3345.159783 6.34907e+00   29 	  306.806
+  6: 3330.953697 1.42061e+01   32 	  326.557
+  7: 3321.633072 9.32063e+00   39 	  248.814
+  8: 3317.127021 4.50605e+00   42 	  251.008
+  9: 3314.115298 3.01172e+00   50 	  253.067
+ 10: 3308.311040 5.80426e+00   53 	  263.320
+ 11: 3305.887657 2.42338e+00   62 	  237.162
+ 12: 3301.143887 4.74377e+00   69 	  200.805
+ 13: 3300.283703 8.60184e-01   77 	  177.415
+ 14: 3299.484382 7.99321e-01   84 	  171.517
+ 15: 3298.591232 8.93150e-01   87 	  155.256
+ 16: 3297.137029 1.45420e+00   90 	  134.056
+ 17: 3294.230397 2.90663e+00   93 	   94.539
+ 18: 3290.238355 3.99204e+00   96 	   67.608
+ 19: 3287.546931 2.69142e+00   99 	   88.703
+ 20: 3286.604919 9.42012e-01  108 	   89.858
+ 21: 3285.509814 1.09510e+00  117 	   32.938
+ 22: 3285.404072 1.05741e-01  120 	   23.733
+ 23: 3284.027049 1.37702e+00  123 	   13.477
+ 24: 3283.288015 7.39034e-01  126 	   11.166
+ 25: 3282.479751 8.08263e-01  134 	    9.378
+ 26: 3280.454408 2.02534e+00  137 	    6.770
+ 27: 3279.546461 9.07948e-01  144 	    3.499
+ 28: 3279.257918 2.88543e-01  151 	    2.695
+ 29: 3279.160729 9.71886e-02  154 	    1.477
+ 30: 3279.148861 1.18676e-02  157 	    1.764
+ 31: 3279.058056 9.08058e-02  166 	    1.193
+ 32: 3278.838486 2.19570e-01  173 	    0.483
+ 33: 3278.756162 8.23235e-02  176 	    0.248
+ 34: 3278.736614 1.95485e-02  179 	    0.325
+ 35: 3278.712221 2.43927e-02  182 	    0.167
+ 36: 3278.702123 1.00980e-02  185 	    0.047
+ 37: 3278.700873 1.25012e-03  188 	    0.027
+ 38: 3278.700580 2.93004e-04  191 	    0.014
+ 39: 3278.700527 5.27769e-05  194 	    0.004
+ 40: 3278.700521 6.38336e-06  197 	    0.001
+ 41: 3278.700520 4.95792e-07  200 	    0.000
+ 42: 3278.700520 6.58592e-08  203 	    0.000
+ 43: 3278.700520 3.11456e-09  230 -	    0.000
+***
+# lnL = 3.278701e+03
+(flyg4:1.224579, ((flyg9:0.013897, flyg2:0.031594 ):0.022362, ((flyg3:0.050295, (flyg10:0.024055, (flyg5:0.056000, (flyg7:0.014861, flyg8:0.038386 ):0.014911 ):0.024994 ):0.062240 ):0.030097, flyg6:0.082947 ):0.025178 ):1.269408, flyg1:3.007166 )
+# Kappa = 1.779177 Omega = 0.082193
+# Tree length = 5.99, average branch length = 0.35 (min=0.01, max=3.01)
+# Scaling tree to neutral evolution. Factor = 3.45
+# Calculating initial estimates of sitewise conservation
+# Calculating conservation at each site. This may take a while.
+
+   1:  ..................................................
+  51:  ..................................................
+ 101:  ..................................................
+ 151:  ..................................................
+ 201:  ..................................................
+ 251:  ..................................................
+ 301:  .................................
+# Positively selected sites (cumulative)
+# Significance  Number sites  Number Random
+# 99% corrected      0       0
+# 95% corrected      0       0
+# 99%                0       0
+# 95%                0       0
+
+# Conserved sites (cumulative)
+# Significance  Number sites
+# 99% corrected      2
+# 95% corrected     22
+# 99%              135
+# 95%              170
+	got slr results msa54.slr
