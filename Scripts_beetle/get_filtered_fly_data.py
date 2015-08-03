@@ -119,7 +119,7 @@ def filter_phyloxml(tree, species_list) :
                 if prop.value not in fly_uniq_check :
                     fly_uniq_check.append(prop.value)
                 else :
-                    "Multiple fly genes from the same species in treee, exiting..."
+                    print "Multiple fly genes from the same species in tree, exiting..."
                     sys.exit(1)
                 flies.add(prop.value)
                 include = True
