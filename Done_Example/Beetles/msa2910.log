@@ -1,0 +1,479 @@
+IMPORTANT WARNING: Alignment column 4 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 5 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 6 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 7 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 8 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 9 contains only undetermined values which will be treated as missing data
+
+IMPORTANT WARNING
+Found 6 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+undetermined columns removed is printed to file msa2910_.phy.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+Alignment has 6 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.1.17 released by Alexandros Stamatakis on February 5 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 73 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 24.16%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 10 inferences on the original alignment using 10 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 73
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-SSE3 -m GTRGAMMA -# 10 -p 37 -s msa2910_.phy -n msa2910_ 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.300 0.237 0.246 0.218 
+
+Inference[0]: Time 0.503125 GAMMA-based likelihood -1025.391695, best rearrangement setting 5
+Inference[1]: Time 0.402920 GAMMA-based likelihood -1025.356835, best rearrangement setting 5
+Inference[2]: Time 0.204504 GAMMA-based likelihood -1025.391449, best rearrangement setting 5
+Inference[3]: Time 0.267421 GAMMA-based likelihood -1025.357062, best rearrangement setting 5
+Inference[4]: Time 0.209347 GAMMA-based likelihood -1025.371326, best rearrangement setting 5
+Inference[5]: Time 0.206036 GAMMA-based likelihood -1025.371488, best rearrangement setting 5
+Inference[6]: Time 0.262224 GAMMA-based likelihood -1025.360558, best rearrangement setting 5
+Inference[7]: Time 0.190208 GAMMA-based likelihood -1025.391592, best rearrangement setting 5
+Inference[8]: Time 0.197399 GAMMA-based likelihood -1025.377751, best rearrangement setting 5
+Inference[9]: Time 0.195413 GAMMA-based likelihood -1025.360815, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 10 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -1023.684258 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa2910_.RUN.0
+Inference[1] final GAMMA-based Likelihood: -1023.684159 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa2910_.RUN.1
+Inference[2] final GAMMA-based Likelihood: -1023.684258 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa2910_.RUN.2
+Inference[3] final GAMMA-based Likelihood: -1023.684159 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa2910_.RUN.3
+Inference[4] final GAMMA-based Likelihood: -1023.684258 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa2910_.RUN.4
+Inference[5] final GAMMA-based Likelihood: -1023.684258 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa2910_.RUN.5
+Inference[6] final GAMMA-based Likelihood: -1023.684159 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa2910_.RUN.6
+Inference[7] final GAMMA-based Likelihood: -1023.684159 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa2910_.RUN.7
+Inference[8] final GAMMA-based Likelihood: -1023.684159 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa2910_.RUN.8
+Inference[9] final GAMMA-based Likelihood: -1023.684159 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa2910_.RUN.9
+
+
+Starting final GAMMA-based thorough Optimization on tree 1 likelihood -1023.684159 .... 
+
+Final GAMMA-based Score of best tree -1023.684159
+
+Program execution info written to /home/lauralaa/Example/Beetles/RAxML_info.msa2910_
+Best-scoring ML tree written to: /home/lauralaa/Example/Beetles/RAxML_bestTree.msa2910_
+
+Overall execution time: 2.786086 secs or 0.000774 hours or 0.000032 days
+
+
+running msa2910.fasta
+	running raxml...
+	got tree file msa2910_.tree
+	expect results in msa2910.slr
+	running Slr...
+     seqfile:    msa2910_.phy
+    treefile:    msa2910_.tree
+     outfile:    msa2910_.slr
+       kappa:    2.000000e+00
+       omega:    1.000000e-01
+      codonf:    0
+     nucleof:    0
+      aminof:    0
+  reoptimise:    1
+     nucfile:    nuc.dat
+   aminofile:    amino.dat
+positive_only:    0
+     gencode:    universal
+     timemem:    0
+       ldiff:    3.841459e+00
+     paramin:    
+    paramout:    
+skipsitewise:    0
+        seed:    0
+    saveseed:    1
+    freqtype:    0
+   cleandata:    0
+     branopt:    1
+    writetmp:    0
+     recover:    0
+
+# SLR "Sitewise Likelihood Ratio" selection detection program. Version 1.4.3
+# Redundency. Reduced sites from 166 to 109
+# Read seqfile file msa2910_.phy. 9 species, 166 sites.
+# Read tree from msa2910_.tree.
+(seq5:0.013014, ((seq2:0.018123, (((seq3:0.007675, seq6:0.067101 ):0.030891, seq4:0.002883 ):0.002923, (seq9:0.000001, seq7:0.020135 ):0.000001 ):0.005972 ):0.004102, seq8:0.007069 ):0.002738, seq1:0.007215 )
+# Reoptimising parameters, branches variable
+Initial	f: 984.144265
+Step     f(x)      delta
+  1: 972.123532 1.20207e+01    5 B	  221.214
+  2: 967.040185 5.08335e+00   12 	  186.860
+  3: 966.923730 1.16454e-01   15 	  632.216
+  4: 966.316211 6.07520e-01   26 	  211.478
+  5: 965.713029 6.03182e-01   35 	  126.313
+  6: 965.639392 7.36368e-02   38 	  130.076
+  7: 964.502156 1.13724e+00   45 	   93.693
+  8: 964.117172 3.84984e-01   48 	   97.625
+  9: 963.058564 1.05861e+00   55 	  102.346
+ 10: 962.748201 3.10363e-01   58 	   80.919
+ 11: 962.606083 1.42118e-01   67 	   71.131
+ 12: 962.494154 1.11928e-01   75 	   56.206
+ 13: 962.414720 7.94341e-02   78 	   51.508
+ 14: 962.392711 2.20093e-02   81 	   48.257
+ 15: 962.340431 5.22799e-02   89 	   45.225
+ 16: 962.083673 2.56758e-01   92 	   40.817
+ 17: 961.976767 1.06906e-01  100 	   34.901
+ 18: 961.634512 3.42255e-01  103 	   35.209
+ 19: 961.176845 4.57667e-01  106 	    2.283
+ 20: 960.774425 4.02419e-01  109 	    1.943
+ 21: 960.155102 6.19323e-01  112 	    1.551
+ 22: 959.442153 7.12949e-01  115 	    0.636
+ 23: 959.334464 1.07689e-01  122 	    0.301
+ 24: 959.308141 2.63235e-02  125 	    0.168
+ 25: 959.304096 4.04455e-03  128 	    0.123
+ 26: 959.301426 2.66997e-03  131 	    0.063
+ 27: 959.301077 3.48783e-04  134 	    0.051
+ 28: 959.300261 8.16407e-04  137 	    0.012
+ 29: 959.300235 2.60539e-05  140 	    0.008
+ 30: 959.300217 1.81324e-05  143 	    0.002
+ 31: 959.300216 4.97948e-07  146 	    0.001
+ 32: 959.300216 6.76937e-07  149 	    0.000
+ 33: 959.300216 1.34470e-07  152 	    0.000
+ 34: 959.300215 1.61909e-07  155 -	    0.000
+ 35: 959.300215 4.43423e-08  198 -	    0.000
+ 36: 959.300215 5.09231e-08  201 -	    0.000
+ 37: 959.300215 8.47516e-08  210 -	    0.000
+ 38: 959.300216 6.70391e-07  274 	    0.000
+***
+# lnL = 9.593002e+02
+(seq5:0.034372, ((seq2:0.050123, (((seq3:0.025356, seq6:0.182343 ):0.083314, seq4:0.007521 ):0.008504, (seq9:0.000001, seq7:0.057765 ):0.000001 ):0.016831 ):0.009263, seq8:0.021985 ):0.007759, seq1:0.021845 )
+# Kappa = 1.464379 Omega = 0.049381
+# Tree length = 0.53, average branch length = 0.04 (min=0.00, max=0.18)
+# Scaling tree to neutral evolution. Factor = 4.40
+# Calculating initial estimates of sitewise conservation
+# Calculating conservation at each site. This may take a while.
+
+   1:  ..................................................
+  51:  ..................................................
+ 101:  ..................................................
+ 151:  ................
+# Positively selected sites (cumulative)
+# Significance  Number sites  Number Random
+# 99% corrected      0       0
+# 95% corrected      0       0
+# 99%                0       0
+# 95%                0       0
+
+# Conserved sites (cumulative)
+# Significance  Number sites
+# 99% corrected      0
+# 95% corrected      0
+# 99%                3
+# 95%               47
+	got slr results msa2910.slr
+	expect results in msa2910
+ 15         verbose | verbose                0.00
+  7         runmode | runmode                0.00
+  4         seqtype | seqtype                1.00
+ 13       CodonFreq | CodonFreq              0.00
+ 16           model | model                  0.00
+ 20         NSsites | NSsites                0.00
+ 22           icode | icode                  0.00
+ 24       fix_kappa | fix_kappa              0.00
+ 25           kappa | kappa                  2.00
+ 26       fix_omega | fix_omega              0.00
+ 27           omega | omega                  0.10
+CODONML in paml version 4.8a, July 2014
+
+----------------------------------------------
+Phe F TTT | Ser S TCT | Tyr Y TAT | Cys C TGT
+      TTC |       TCC |       TAC |       TGC
+Leu L TTA |       TCA | *** * TAA | *** * TGA
+      TTG |       TCG |       TAG | Trp W TGG
+----------------------------------------------
+Leu L CTT | Pro P CCT | His H CAT | Arg R CGT
+      CTC |       CCC |       CAC |       CGC
+      CTA |       CCA | Gln Q CAA |       CGA
+      CTG |       CCG |       CAG |       CGG
+----------------------------------------------
+Ile I ATT | Thr T ACT | Asn N AAT | Ser S AGT
+      ATC |       ACC |       AAC |       AGC
+      ATA |       ACA | Lys K AAA | Arg R AGA
+Met M ATG |       ACG |       AAG |       AGG
+----------------------------------------------
+Val V GTT | Ala A GCT | Asp D GAT | Gly G GGT
+      GTC |       GCC |       GAC |       GGC
+      GTA |       GCA | Glu E GAA |       GGA
+      GTG |       GCG |       GAG |       GGG
+----------------------------------------------
+Nice code, uuh?
+
+
+Ambiguity character definition table:
+
+T (1): T 
+C (1): C 
+A (1): A 
+G (1): G 
+U (1): T 
+Y (2): T C 
+R (2): A G 
+M (2): C A 
+K (2): T G 
+S (2): C G 
+W (2): T A 
+H (3): T C A 
+B (3): T C G 
+V (3): C A G 
+D (3): T A G 
+- (4): T C A G 
+N (4): T C A G 
+? (4): T C A G 
+
+ns = 9  	ls = 498
+Reading sequences, sequential format..
+Reading seq # 1: seq1     Reading seq # 2: seq2     Reading seq # 3: seq3     Reading seq # 4: seq4     Reading seq # 5: seq5     Reading seq # 6: seq6     Reading seq # 7: seq7     Reading seq # 8: seq8     Reading seq # 9: seq9     
+codon      42: AGC AGC AGC AGC AGC TCG AGC AGC AGC 
+Sequences read..
+Counting site patterns..  0:00
+         129 patterns at      166 /      166 sites (100.0%),  0:00
+1 ambiguous codons are seen in the data:
+ ---
+Counting codons..
+
+  2   1:Sites    78.9 +  308.1 =  387.0	Diffs     9.0 +    0.0 =    9.0
+  3   1:Sites    78.9 +  305.1 =  384.0	Diffs    16.0 +    3.0 =   19.0
+  3   2:Sites    78.9 +  305.1 =  384.0	Diffs    17.0 +    3.0 =   20.0
+  4   1:Sites    77.9 +  303.1 =  381.0	Diffs     8.0 +    0.0 =    8.0
+  4   2:Sites    77.9 +  303.1 =  381.0	Diffs    10.0 +    0.0 =   10.0
+  4   3:Sites    77.9 +  303.1 =  381.0	Diffs     9.0 +    3.0 =   12.0
+  5   1:Sites    78.9 +  308.1 =  387.0	Diffs     7.0 +    0.0 =    7.0
+  5   2:Sites    78.9 +  308.1 =  387.0	Diffs    10.0 +    0.0 =   10.0
+  5   3:Sites    78.9 +  305.1 =  384.0	Diffs    18.0 +    3.0 =   21.0
+  5   4:Sites    77.9 +  303.1 =  381.0	Diffs    10.0 +    0.0 =   10.0
+  6   1:Sites    71.0 +  280.0 =  351.0	Diffs    21.5 +    9.5 =   31.0
+  6   2:Sites    71.0 +  280.0 =  351.0	Diffs    18.5 +    9.5 =   28.0
+  6   3:Sites    84.3 +  311.7 =  396.0	Diffs    14.5 +    9.5 =   24.0
+  6   4:Sites    70.0 +  275.0 =  345.0	Diffs    15.5 +    9.5 =   25.0
+  6   5:Sites    71.0 +  280.0 =  351.0	Diffs    21.5 +    9.5 =   31.0
+  7   1:Sites    78.9 +  308.1 =  387.0	Diffs    14.0 +    0.0 =   14.0
+  7   2:Sites    78.9 +  308.1 =  387.0	Diffs    15.0 +    0.0 =   15.0
+  7   3:Sites    78.9 +  305.1 =  384.0	Diffs    15.0 +    3.0 =   18.0
+  7   4:Sites    77.9 +  303.1 =  381.0	Diffs     9.0 +    0.0 =    9.0
+  7   5:Sites    78.9 +  308.1 =  387.0	Diffs    15.0 +    0.0 =   15.0
+  7   6:Sites    71.0 +  280.0 =  351.0	Diffs    12.5 +    9.5 =   22.0
+  8   1:Sites    78.9 +  308.1 =  387.0	Diffs     5.0 +    0.0 =    5.0
+  8   2:Sites    78.9 +  308.1 =  387.0	Diffs    10.0 +    0.0 =   10.0
+  8   3:Sites    78.9 +  305.1 =  384.0	Diffs    15.0 +    3.0 =   18.0
+  8   4:Sites    77.9 +  303.1 =  381.0	Diffs     7.0 +    0.0 =    7.0
+  8   5:Sites    78.9 +  308.1 =  387.0	Diffs     8.0 +    0.0 =    8.0
+  8   6:Sites    71.0 +  280.0 =  351.0	Diffs    20.5 +    9.5 =   30.0
+  8   7:Sites    78.9 +  308.1 =  387.0	Diffs    13.0 +    0.0 =   13.0
+  9   1:Sites    35.7 +  159.3 =  195.0	Diffs     4.0 +    0.0 =    4.0
+  9   2:Sites    35.7 +  159.3 =  195.0	Diffs     4.0 +    0.0 =    4.0
+  9   3:Sites    35.7 +  156.3 =  192.0	Diffs     7.0 +    3.0 =   10.0
+  9   4:Sites    34.7 +  154.3 =  189.0	Diffs     1.0 +    0.0 =    1.0
+  9   5:Sites    35.7 +  159.3 =  195.0	Diffs     2.0 +    0.0 =    2.0
+  9   6:Sites    28.0 +  131.0 =  159.0	Diffs    11.5 +    9.5 =   21.0
+  9   7:Sites    35.7 +  159.3 =  195.0	Diffs     5.0 +    0.0 =    5.0
+  9   8:Sites    35.7 +  159.3 =  195.0	Diffs     4.0 +    0.0 =    4.0
+
+      288 bytes for distance
+   125904 bytes for conP
+        0 bytes for fhK
+  5000000 bytes for space
+
+TREE #  1
+(5, ((2, (((3, 6), 4), (9, 7))), 8), 1);   MP score: -1
+   440664 bytes for conP, adjusted
+
+    0.029578    0.004376    0.021831    0.039895    0.016224    0.034160    0.073904    0.029295    0.163360    0.000000    0.014655    0.040523    0.042825    0.022945    0.025603    2.000000    0.100000
+
+ntime & nrate & np:    15     2    17
+
+Bounds (np=17):
+   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000100   0.000100
+  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000 999.000000 999.000000
+
+np =    17
+lnL0 =  -996.524261
+
+Iterating by ming2
+Initial: fx=   996.524261
+x=  0.02958  0.00438  0.02183  0.03989  0.01622  0.03416  0.07390  0.02930  0.16336  0.00000  0.01466  0.04052  0.04282  0.02294  0.02560  2.00000  0.10000
+
+  1 h-m-p  0.0000 0.0002 666.3807 YCYCCC   995.015849  5 0.0000    30 | 0/17
+  2 h-m-p  0.0000 0.0002 160.3782 ++      991.683102  m 0.0002    50 | 1/17
+  3 h-m-p  0.0000 0.0002 214.2816 +YYCCCC   990.259598  5 0.0001    79 | 1/17
+  4 h-m-p  0.0000 0.0002 112.1804 ++      989.066067  m 0.0002    99 | 2/17
+  5 h-m-p  0.0005 0.0027  22.2731 YCC     989.001397  2 0.0003   122 | 2/17
+  6 h-m-p  0.0003 0.0014  25.0933 YCC     988.975034  2 0.0002   145 | 2/17
+  7 h-m-p  0.0003 0.0138  14.0259 CC      988.948834  1 0.0005   167 | 2/17
+  8 h-m-p  0.0006 0.0050  10.8801 YCC     988.937623  2 0.0004   190 | 2/17
+  9 h-m-p  0.0008 0.0177   5.0550 YC      988.934520  1 0.0004   211 | 2/17
+ 10 h-m-p  0.0009 0.0418   1.9613 YC      988.933432  1 0.0005   232 | 2/17
+ 11 h-m-p  0.0007 0.1024   1.5451 CC      988.931981  1 0.0010   254 | 2/17
+ 12 h-m-p  0.0005 0.0420   3.1897 +CC     988.926218  1 0.0018   277 | 2/17
+ 13 h-m-p  0.0007 0.0678   8.0140 +YC     988.870160  1 0.0067   299 | 2/17
+ 14 h-m-p  0.0008 0.0163  70.8433 YCCC    988.762885  3 0.0014   324 | 2/17
+ 15 h-m-p  0.0236 0.1179   2.8717 --C     988.762070  0 0.0004   346 | 2/17
+ 16 h-m-p  0.2055 8.0000   0.0051 +CCC    988.716729  2 1.1648   371 | 2/17
+ 17 h-m-p  0.1918 8.0000   0.0313 ++YCC   988.690449  2 2.1442   411 | 2/17
+ 18 h-m-p  0.6756 5.4855   0.0992 CCC     988.670832  2 0.7461   450 | 2/17
+ 19 h-m-p  1.6000 8.0000   0.0145 YC      988.666777  1 0.9684   486 | 2/17
+ 20 h-m-p  1.6000 8.0000   0.0009 YC      988.666551  1 0.8998   522 | 2/17
+ 21 h-m-p  0.7718 8.0000   0.0010 C       988.666548  0 0.9259   557 | 2/17
+ 22 h-m-p  1.6000 8.0000   0.0001 Y       988.666548  0 0.8947   592 | 2/17
+ 23 h-m-p  1.6000 8.0000   0.0000 Y       988.666548  0 2.5950   627 | 2/17
+ 24 h-m-p  1.6000 8.0000   0.0000 Y       988.666548  0 0.4000   662 | 2/17
+ 25 h-m-p  0.2872 8.0000   0.0000 ---------------..  | 2/17
+ 26 h-m-p  0.0160 8.0000   0.0020 ------------- | 2/17
+ 27 h-m-p  0.0160 8.0000   0.0020 -------------
+Out..
+lnL  =  -988.666548
+803 lfun, 803 eigenQcodon, 12045 P(t)
+
+d123[*] =  0.00491  0.00299  0.03315  average  0.01368
+    [B] =  0.04059  0.04132  0.04132  average  0.04107
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00297 dS =  0.04107 d4 =  0.04269 (87.1 four-fold sites)
+             dN*=  0.00286 dS*=  0.04533 S* = 126.87 N* = 371.13
+
+d123[*] =  0.00102  0.00062  0.00687  average  0.00283
+    [B] =  0.00841  0.00856  0.00856  average  0.00851
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00062 dS =  0.00851 d4 =  0.00885 (87.1 four-fold sites)
+             dN*=  0.00059 dS*=  0.00939 S* = 126.87 N* = 371.13
+
+d123[*] =  0.00164  0.00100  0.01106  average  0.00456
+    [B] =  0.01354  0.01378  0.01378  average  0.01370
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00099 dS =  0.01370 d4 =  0.01424 (87.1 four-fold sites)
+             dN*=  0.00096 dS*=  0.01512 S* = 126.87 N* = 371.13
+
+d123[*] =  0.00657  0.00400  0.04442  average  0.01833
+    [B] =  0.05438  0.05535  0.05535  average  0.05503
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00398 dS =  0.05503 d4 =  0.05719 (87.1 four-fold sites)
+             dN*=  0.00384 dS*=  0.06073 S* = 126.87 N* = 371.13
+
+d123[*] =  0.00218  0.00133  0.01475  average  0.00609
+    [B] =  0.01805  0.01838  0.01838  average  0.01827
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00132 dS =  0.01827 d4 =  0.01899 (87.1 four-fold sites)
+             dN*=  0.00127 dS*=  0.02016 S* = 126.87 N* = 371.13
+
+d123[*] =  0.00111  0.00067  0.00749  average  0.00309
+    [B] =  0.00917  0.00934  0.00934  average  0.00928
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00067 dS =  0.00928 d4 =  0.00965 (87.1 four-fold sites)
+             dN*=  0.00065 dS*=  0.01024 S* = 126.87 N* = 371.13
+
+d123[*] =  0.01039  0.00632  0.07019  average  0.02897
+    [B] =  0.08593  0.08747  0.08747  average  0.08696
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00628 dS =  0.08696 d4 =  0.09037 (87.1 four-fold sites)
+             dN*=  0.00606 dS*=  0.09596 S* = 126.87 N* = 371.13
+
+d123[*] =  0.00320  0.00195  0.02162  average  0.00892
+    [B] =  0.02647  0.02695  0.02695  average  0.02679
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00194 dS =  0.02679 d4 =  0.02784 (87.1 four-fold sites)
+             dN*=  0.00187 dS*=  0.02956 S* = 126.87 N* = 371.13
+
+d123[*] =  0.02326  0.01415  0.15714  average  0.06485
+    [B] =  0.19239  0.19583  0.19583  average  0.19468
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.01407 dS =  0.19468 d4 =  0.20234 (87.1 four-fold sites)
+             dN*=  0.01357 dS*=  0.21485 S* = 126.87 N* = 371.13
+
+d123[*] =  0.00107  0.00065  0.00722  average  0.00298
+    [B] =  0.00884  0.00900  0.00900  average  0.00895
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00065 dS =  0.00895 d4 =  0.00930 (87.1 four-fold sites)
+             dN*=  0.00062 dS*=  0.00987 S* = 126.87 N* = 371.13
+
+d123[*] =  0.00000  0.00000  0.00000  average  0.00000
+    [B] =  0.00000  0.00000  0.00000  average  0.00000
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00000 dS =  0.00000 d4 =  0.00000 (87.1 four-fold sites)
+             dN*=  0.00000 dS*=  0.00000 S* = 126.87 N* = 371.13
+
+d123[*] =  0.00000  0.00000  0.00000  average  0.00000
+    [B] =  0.00000  0.00000  0.00000  average  0.00000
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00000 dS =  0.00000 d4 =  0.00000 (87.1 four-fold sites)
+             dN*=  0.00000 dS*=  0.00000 S* = 126.87 N* = 371.13
+
+d123[*] =  0.00749  0.00456  0.05061  average  0.02089
+    [B] =  0.06197  0.06308  0.06308  average  0.06271
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00453 dS =  0.06271 d4 =  0.06517 (87.1 four-fold sites)
+             dN*=  0.00437 dS*=  0.06920 S* = 126.87 N* = 371.13
+
+d123[*] =  0.00264  0.00161  0.01784  average  0.00736
+    [B] =  0.02184  0.02223  0.02223  average  0.02210
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00160 dS =  0.02210 d4 =  0.02297 (87.1 four-fold sites)
+             dN*=  0.00154 dS*=  0.02439 S* = 126.87 N* = 371.13
+
+d123[*] =  0.00266  0.00162  0.01800  average  0.00743
+    [B] =  0.02203  0.02243  0.02243  average  0.02230
+accept  =  0.12088  0.07228  0.80241
+
+w =  0.07228 dN =  0.00161 dS =  0.02230 d4 =  0.02317 (87.1 four-fold sites)
+             dN*=  0.00155 dS*=  0.02461 S* = 126.87 N* = 371.13
+end of tree file.
+
+Time used:  0:17
+.paml
+	running paml...
+	got paml results

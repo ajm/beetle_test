@@ -1,0 +1,722 @@
+IMPORTANT WARNING: Alignment column 7 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 8 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 9 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 10 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 11 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 12 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 13 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 14 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 15 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 16 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 17 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 18 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 28 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 29 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 30 contains only undetermined values which will be treated as missing data
+
+IMPORTANT WARNING
+Found 15 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+undetermined columns removed is printed to file msa561_.phy.reduced
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+Alignment has 15 completely undetermined sites that will be automatically removed from the input data
+
+
+
+This is RAxML version 8.1.17 released by Alexandros Stamatakis on February 5 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+Alignment has 166 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 3.81%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 10 inferences on the original alignment using 10 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 166
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-SSE3 -m GTRGAMMA -# 10 -p 37 -s msa561_.phy -n msa561_ 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.343 0.153 0.213 0.291 
+
+Inference[0]: Time 1.570926 GAMMA-based likelihood -5056.220616, best rearrangement setting 5
+Inference[1]: Time 0.991826 GAMMA-based likelihood -5056.209069, best rearrangement setting 5
+Inference[2]: Time 0.768214 GAMMA-based likelihood -5056.132975, best rearrangement setting 5
+Inference[3]: Time 0.776822 GAMMA-based likelihood -5056.132428, best rearrangement setting 5
+Inference[4]: Time 0.995233 GAMMA-based likelihood -5056.188192, best rearrangement setting 5
+Inference[5]: Time 0.993093 GAMMA-based likelihood -5056.209951, best rearrangement setting 5
+Inference[6]: Time 0.811873 GAMMA-based likelihood -5056.220172, best rearrangement setting 5
+Inference[7]: Time 0.791387 GAMMA-based likelihood -5056.222283, best rearrangement setting 5
+Inference[8]: Time 0.805130 GAMMA-based likelihood -5056.133551, best rearrangement setting 5
+Inference[9]: Time 0.786014 GAMMA-based likelihood -5056.142951, best rearrangement setting 5
+
+
+Conducting final model optimizations on all 10 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -5052.185051 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa561_.RUN.0
+Inference[1] final GAMMA-based Likelihood: -5052.185051 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa561_.RUN.1
+Inference[2] final GAMMA-based Likelihood: -5052.185051 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa561_.RUN.2
+Inference[3] final GAMMA-based Likelihood: -5052.185051 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa561_.RUN.3
+Inference[4] final GAMMA-based Likelihood: -5052.185051 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa561_.RUN.4
+Inference[5] final GAMMA-based Likelihood: -5052.185051 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa561_.RUN.5
+Inference[6] final GAMMA-based Likelihood: -5052.185051 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa561_.RUN.6
+Inference[7] final GAMMA-based Likelihood: -5052.185051 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa561_.RUN.7
+Inference[8] final GAMMA-based Likelihood: -5052.185051 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa561_.RUN.8
+Inference[9] final GAMMA-based Likelihood: -5052.185051 tree written to file /home/lauralaa/Example/Beetles/RAxML_result.msa561_.RUN.9
+
+
+Starting final GAMMA-based thorough Optimization on tree 4 likelihood -5052.185051 .... 
+
+Final GAMMA-based Score of best tree -5052.185051
+
+Program execution info written to /home/lauralaa/Example/Beetles/RAxML_info.msa561_
+Best-scoring ML tree written to: /home/lauralaa/Example/Beetles/RAxML_bestTree.msa561_
+
+Overall execution time: 9.820738 secs or 0.002728 hours or 0.000114 days
+
+
+running msa561.fasta
+	running raxml...
+	got tree file msa561_.tree
+	expect results in msa561.slr
+	running Slr...
+     seqfile:    msa561_.phy
+    treefile:    msa561_.tree
+     outfile:    msa561_.slr
+       kappa:    2.000000e+00
+       omega:    1.000000e-01
+      codonf:    0
+     nucleof:    0
+      aminof:    0
+  reoptimise:    1
+     nucfile:    nuc.dat
+   aminofile:    amino.dat
+positive_only:    0
+     gencode:    universal
+     timemem:    0
+       ldiff:    3.841459e+00
+     paramin:    
+    paramout:    
+skipsitewise:    0
+        seed:    0
+    saveseed:    1
+    freqtype:    0
+   cleandata:    0
+     branopt:    1
+    writetmp:    0
+     recover:    0
+
+# SLR "Sitewise Likelihood Ratio" selection detection program. Version 1.4.3
+#  Warning: Found unrecognised nucleotide in sequence seq7: N(237) N(238) N(239) N(240) N(241) N(242) N(243) N(244) N(245) N(246) N(247) N(248) N(249) N(250) N(251) N(252) N(253) N(254) N(255) N(256) N(257) N(258) N(259) N(260) N(261) N(262) N(263) 
+# Redundency. Reduced sites from 674 to 341
+# Read seqfile file msa561_.phy. 10 species, 674 sites.
+# Read tree from msa561_.tree.
+((seq6:0.012870, (((seq5:0.003490, seq3:0.001512 ):0.016399, (seq10:0.009787, (seq8:0.003628, (seq7:0.000003, seq4:0.611134 ):0.007160 ):0.005061 ):0.003294 ):0.004576, seq2:0.009227 ):0.002693 ):0.012737, seq9:0.002485, seq1:0.001454 )
+# Reoptimising parameters, branches variable
+Initial	f: 4696.761368
+Step     f(x)      delta
+  1: 4659.032736 3.77286e+01    5 	 1668.430
+  2: 4654.285119 4.74762e+00   13 	 1693.085
+  3: 4646.811832 7.47329e+00   20 	 1758.056
+  4: 4584.818744 6.19931e+01   23 	 1360.990
+  5: 4558.922067 2.58967e+01   26 	 1419.259
+  6: 4546.316267 1.26058e+01   34 	 1145.303
+  7: 4540.528402 5.78787e+00   41 	  983.605
+  8: 4527.529398 1.29990e+01   44 	  664.253
+  9: 4518.233173 9.29623e+00   51 	  723.293
+ 10: 4515.230652 3.00252e+00   58 	  531.783
+ 11: 4513.611894 1.61876e+00   61 	  727.302
+ 12: 4510.072795 3.53910e+00   64 	  642.908
+ 13: 4504.581296 5.49150e+00   71 	  640.526
+ 14: 4502.732214 1.84908e+00   79 	  505.417
+ 15: 4499.907406 2.82481e+00   82 	  454.472
+ 16: 4499.069535 8.37871e-01   90 	  338.813
+ 17: 4498.785743 2.83791e-01   98 	  284.662
+ 18: 4498.666406 1.19338e-01  105 	  267.604
+ 19: 4498.642838 2.35679e-02  113 	  218.898
+ 20: 4498.608678 3.41593e-02  116 	  153.285
+ 21: 4498.534812 7.38662e-02  119 	  137.330
+ 22: 4498.522871 1.19413e-02  122 	  130.889
+ 23: 4498.452468 7.04026e-02  131 	   89.384
+ 24: 4498.352269 1.00199e-01  134 	   97.706
+ 25: 4498.325291 2.69782e-02  143 	   56.210
+ 26: 4498.299575 2.57153e-02  151 	   70.731
+ 27: 4498.264525 3.50502e-02  154 	   64.054
+ 28: 4498.222756 4.17687e-02  162 	   62.773
+ 29: 4498.173705 4.90517e-02  165 	   54.380
+ 30: 4498.154273 1.94314e-02  174 	   55.898
+ 31: 4498.141206 1.30669e-02  177 	  102.388
+ 32: 4498.094696 4.65103e-02  185 	   57.221
+ 33: 4498.039319 5.53772e-02  188 	   74.601
+ 34: 4498.026884 1.24352e-02  197 	   55.477
+ 35: 4497.999574 2.73093e-02  200 	   97.617
+ 36: 4497.960387 3.91868e-02  208 	   54.267
+ 37: 4497.951001 9.38694e-03  216 	   67.906
+ 38: 4497.943696 7.30429e-03  223 	   52.311
+ 39: 4497.938262 5.43426e-03  226 	   67.745
+ 40: 4497.931104 7.15782e-03  233 	   52.214
+ 41: 4497.925749 5.35519e-03  236 	   67.590
+ 42: 4497.918734 7.01460e-03  243 	   52.133
+ 43: 4497.913443 5.29166e-03  246 	   67.475
+ 44: 4497.906545 6.89746e-03  253 	   52.071
+ 45: 4497.901308 5.23678e-03  256 	   67.389
+ 46: 4497.894508 6.80064e-03  263 	   52.021
+ 47: 4497.889321 5.18659e-03  266 	   67.326
+ 48: 4497.882602 6.71876e-03  273 	   51.980
+ 49: 4497.877463 5.13919e-03  276 	   67.280
+ 50: 4497.870815 6.64779e-03  283 	   51.946
+ 51: 4497.865722 5.09371e-03  286 	   67.244
+ 52: 4497.859137 6.58482e-03  293 	   51.916
+ 53: 4497.854087 5.04990e-03  296 	   67.217
+ 54: 4497.847559 6.52765e-03  303 	   51.890
+ 55: 4497.842552 5.00763e-03  306 	   67.194
+ 56: 4497.836077 6.47480e-03  313 	   51.866
+ 57: 4497.831110 4.96692e-03  316 	   67.176
+ 58: 4497.824685 6.42523e-03  323 	   51.843
+ 59: 4497.819757 4.92767e-03  326 	   67.160
+ 60: 4497.813379 6.37817e-03  333 	   51.823
+ 61: 4497.808489 4.89000e-03  336 	   67.146
+ 62: 4497.802156 6.33313e-03  343 	   51.803
+ 63: 4497.797302 4.85374e-03  346 	   67.133
+ 64: 4497.791012 6.28966e-03  353 	   51.784
+ 65: 4497.786194 4.81896e-03  356 	   67.122
+ 66: 4497.779946 6.24757e-03  363 	   51.766
+ 67: 4497.775160 4.78552e-03  366 	   67.110
+ 68: 4497.768954 6.20666e-03  373 	   51.748
+ 69: 4497.764200 4.75339e-03  376 	   67.099
+ 70: 4497.758034 6.16672e-03  383 	   51.731
+ 71: 4497.753311 4.72260e-03  386 	   67.089
+ 72: 4497.747183 6.12759e-03  393 	   51.714
+ 73: 4497.742490 4.69302e-03  396 	   67.078
+ 74: 4497.736401 6.08931e-03  403 	   51.698
+ 75: 4497.731737 4.66460e-03  406 	   67.068
+ 76: 4497.725685 6.05168e-03  413 	   51.682
+ 77: 4497.721047 4.63741e-03  416 	   67.058
+ 78: 4497.715033 6.01466e-03  423 	   51.666
+ 79: 4497.710422 4.61122e-03  426 	   67.048
+ 80: 4497.704443 5.97829e-03  433 	   51.650
+ 81: 4497.699857 4.58599e-03  436 	   67.038
+ 82: 4497.693915 5.94250e-03  443 	   51.635
+ 83: 4497.689353 4.56185e-03  446 	   67.027
+ 84: 4497.683446 5.90714e-03  453 	   51.620
+ 85: 4497.678907 4.53860e-03  456 	   67.017
+ 86: 4497.673035 5.87231e-03  463 	   51.606
+ 87: 4497.668519 4.51628e-03  466 	   67.007
+ 88: 4497.662681 5.83781e-03  473 	   51.591
+ 89: 4497.658186 4.49481e-03  476 	   66.997
+ 90: 4497.652382 5.80390e-03  483 	   51.577
+ 91: 4497.647908 4.47412e-03  486 	   66.987
+ 92: 4497.642138 5.77029e-03  493 	   51.562
+ 93: 4497.637683 4.45426e-03  496 	   66.976
+ 94: 4497.631946 5.73703e-03  503 	   51.548
+ 95: 4497.627511 4.43519e-03  506 	   66.966
+ 96: 4497.621807 5.70410e-03  513 	   51.534
+ 97: 4497.617390 4.41684e-03  516 	   66.955
+ 98: 4497.611719 5.67157e-03  523 	   51.521
+ 99: 4497.607320 4.39918e-03  526 	   66.945
+100: 4497.601680 5.63930e-03  533 	   51.507
+101: 4497.597298 4.38220e-03  536 	   66.934
+102: 4497.591691 5.60733e-03  543 	   51.493
+103: 4497.587325 4.36582e-03  546 	   66.923
+104: 4497.581749 5.57565e-03  553 	   51.480
+105: 4497.577399 4.35015e-03  556 	   66.913
+106: 4497.571855 5.54422e-03  563 	   51.467
+107: 4497.567520 4.33508e-03  566 	   66.902
+108: 4497.562007 5.51308e-03  573 	   51.453
+109: 4497.557686 4.32051e-03  576 	   66.891
+110: 4497.552204 5.48218e-03  583 	   51.440
+111: 4497.547897 4.30656e-03  586 	   66.880
+112: 4497.542446 5.45149e-03  593 	   51.427
+113: 4497.538153 4.29314e-03  596 	   66.868
+114: 4497.532732 5.42100e-03  603 	   51.414
+115: 4497.528452 4.28026e-03  606 	   66.857
+116: 4497.523056 5.39572e-03  614 	   57.419
+117: 4497.507102 1.59535e-02  617 	   53.098
+118: 4497.502756 4.34584e-03  625 	   60.097
+119: 4497.497047 5.70931e-03  628 	   50.359
+120: 4497.490331 6.71656e-03  635 	   63.395
+121: 4497.486793 3.53751e-03  638 	   50.532
+122: 4497.480883 5.91002e-03  645 	   64.308
+123: 4497.477151 3.73245e-03  648 	   50.671
+124: 4497.471637 5.51343e-03  656 	   55.835
+125: 4497.457235 1.44025e-02  659 	   63.810
+126: 4497.452889 4.34597e-03  667 	   55.262
+127: 4497.442159 1.07302e-02  670 	   67.191
+128: 4497.436896 5.26232e-03  678 	   57.530
+129: 4497.420890 1.60060e-02  681 	   52.938
+130: 4497.416866 4.02424e-03  689 	   60.081
+131: 4497.411647 5.21903e-03  692 	   50.205
+132: 4497.404709 6.93765e-03  699 	   63.050
+133: 4497.401817 2.89231e-03  702 	   50.334
+134: 4497.395606 6.21098e-03  709 	   63.827
+135: 4497.392607 2.99912e-03  712 	   50.436
+136: 4497.386849 5.75803e-03  719 	   64.334
+137: 4497.383709 3.14011e-03  722 	   50.516
+138: 4497.378173 5.53574e-03  730 	   55.632
+139: 4497.366316 1.18566e-02  733 	   66.419
+140: 4497.361469 4.84746e-03  741 	   56.906
+141: 4497.343575 1.78941e-02  744 	   57.259
+142: 4497.338613 4.96178e-03  747 	   82.508
+143: 4497.328368 1.02448e-02  755 	   58.608
+144: 4497.324607 3.76124e-03  758 	   84.680
+145: 4497.312573 1.20342e-02  766 	   61.117
+146: 4497.298630 1.39424e-02  769 	   81.691
+147: 4497.288146 1.04841e-02  777 	   59.779
+148: 4497.278485 9.66092e-03  780 	   93.052
+149: 4497.260245 1.82408e-02  788 	   69.639
+150: 4497.255819 4.42557e-03  796 	   59.079
+151: 4497.248187 7.63167e-03  799 	   75.504
+152: 4497.242100 6.08700e-03  806 	   55.077
+153: 4497.238039 4.06182e-03  809 	   73.033
+154: 4497.233141 4.89795e-03  817 	   62.114
+155: 4497.202943 3.01971e-02  820 	   59.764
+156: 4497.198414 4.52934e-03  823 	   48.036
+157: 4497.183815 1.45988e-02  831 	   55.560
+158: 4497.179860 3.95486e-03  839 	   64.319
+159: 4497.178542 1.31812e-03  842 	   49.422
+160: 4497.173864 4.67872e-03  850 	   56.200
+161: 4497.166749 7.11489e-03  853 	   73.317
+162: 4497.160067 6.68133e-03  860 	   53.752
+163: 4497.159793 2.73938e-04  863 	   73.716
+164: 4497.152826 6.96725e-03  870 	   53.948
+165: 4497.152493 3.33230e-04  873 	   73.909
+166: 4497.145387 7.10601e-03  880 	   54.032
+167: 4497.145030 3.57056e-04  883 	   73.970
+168: 4497.137880 7.14997e-03  890 	   54.034
+169: 4497.137546 3.34053e-04  893 	   73.940
+170: 4497.130417 7.12847e-03  900 	   53.980
+171: 4497.130139 2.78257e-04  903 	   73.850
+172: 4497.123076 7.06277e-03  910 	   53.890
+173: 4497.122869 2.07678e-04  913 	   73.717
+174: 4497.115902 6.96680e-03  920 	   53.776
+175: 4497.115766 1.36143e-04  923 	   73.556
+176: 4497.108917 6.84915e-03  930 	   53.645
+177: 4497.108844 7.23122e-05  933 	   73.372
+178: 4497.102129 6.71550e-03  940 	   53.503
+179: 4497.102108 2.10396e-05  943 	   73.172
+180: 4497.095538 6.56964e-03  950 	   53.354
+181: 4497.093140 2.39861e-03  957 	   62.203
+182: 4497.080574 1.25658e-02  960 	   42.634
+183: 4497.074847 5.72676e-03  963 	   34.479
+184: 4497.049621 2.52262e-02  966 	   32.262
+185: 4496.960444 8.91768e-02  969 	   34.507
+186: 4496.795170 1.65274e-01  972 	   21.846
+187: 4496.555877 2.39293e-01  975 	    9.562
+188: 4496.309705 2.46172e-01  978 	    7.696
+189: 4495.680167 6.29539e-01  981 	    7.994
+190: 4494.628144 1.05202e+00  984 	    6.855
+191: 4492.295195 2.33295e+00  987 	    6.172
+192: 4488.291058 4.00414e+00  990 	    5.417
+193: 4483.241030 5.05003e+00  993 	    7.121
+194: 4475.619074 7.62196e+00  996 	    6.673
+195: 4474.718115 9.00959e-01 1006 	    2.656
+196: 4472.259440 2.45868e+00 1010 B	    1.637
+197: 4470.906863 1.35258e+00 1013 	    1.072
+198: 4470.440194 4.66668e-01 1016 	    0.848
+199: 4470.204858 2.35337e-01 1019 	    0.450
+200: 4470.136398 6.84593e-02 1026 	    0.404
+201: 4470.095813 4.05855e-02 1029 	    0.172
+202: 4470.082777 1.30361e-02 1032 	    0.130
+203: 4470.073979 8.79744e-03 1035 	    0.090
+204: 4470.070657 3.32278e-03 1038 	    0.037
+205: 4470.070192 4.64428e-04 1041 	    0.011
+206: 4470.070149 4.34793e-05 1044 	    0.002
+207: 4470.070147 1.96345e-06 1047 	    0.001
+208: 4470.070147 2.49655e-07 1050 	    0.000
+209: 4470.070146 5.75892e-08 1059 -	    0.000
+210: 4470.070146 5.44824e-08 1072 -	    0.000
+211: 4470.070147 1.01122e-07 1136 	    0.000
+***
+# lnL = 4.470070e+03
+((seq6:0.038024, (((seq5:0.010661, seq3:0.004636 ):0.049991, (seq10:0.029303, (seq8:0.010962, (seq7:0.021847, seq4:2.464786 ):0.000000 ):0.015845 ):0.010051 ):0.013329, seq2:0.028198 ):0.008633 ):0.038198, seq9:0.007550, seq1:0.004476 )
+# Kappa = 1.850445 Omega = 0.010951
+# Tree length = 2.76, average branch length = 0.16 (min=0.00, max=2.46)
+# Scaling tree to neutral evolution. Factor = 4.27
+# Calculating initial estimates of sitewise conservation
+# Calculating conservation at each site. This may take a while.
+
+   1:  ..................................................
+  51:  ..................................................
+ 101:  ..................................................
+ 151:  ..................................................
+ 201:  ..................................................
+ 251:  ..................................................
+ 301:  ..................................................
+ 351:  ..................................................
+ 401:  ..................................................
+ 15         verbose | verbose                0.00
+  7         runmode | runmode                0.00
+  4         seqtype | seqtype                1.00
+ 13       CodonFreq | CodonFreq              0.00
+ 16           model | model                  0.00
+ 20         NSsites | NSsites                0.00
+ 22           icode | icode                  0.00
+ 24       fix_kappa | fix_kappa              0.00
+ 25           kappa | kappa                  2.00
+ 26       fix_omega | fix_omega              0.00
+ 27           omega | omega                  0.10
+CODONML in paml version 4.8a, July 2014
+
+----------------------------------------------
+Phe F TTT | Ser S TCT | Tyr Y TAT | Cys C TGT
+      TTC |       TCC |       TAC |       TGC
+Leu L TTA |       TCA | *** * TAA | *** * TGA
+      TTG |       TCG |       TAG | Trp W TGG
+----------------------------------------------
+Leu L CTT | Pro P CCT | His H CAT | Arg R CGT
+      CTC |       CCC |       CAC |       CGC
+      CTA |       CCA | Gln Q CAA |       CGA
+      CTG |       CCG |       CAG |       CGG
+----------------------------------------------
+Ile I ATT | Thr T ACT | Asn N AAT | Ser S AGT
+      ATC |       ACC |       AAC |       AGC
+      ATA |       ACA | Lys K AAA | Arg R AGA
+Met M ATG |       ACG |       AAG |       AGG
+----------------------------------------------
+Val V GTT | Ala A GCT | Asp D GAT | Gly G GGT
+      GTC |       GCC |       GAC |       GGC
+      GTA |       GCA | Glu E GAA |       GGA
+      GTG |       GCG |       GAG |       GGG
+----------------------------------------------
+Nice code, uuh?
+
+
+Ambiguity character definition table:
+
+T (1): T 
+C (1): C 
+A (1): A 
+G (1): G 
+U (1): T 
+Y (2): T C 
+R (2): A G 
+M (2): C A 
+K (2): T G 
+S (2): C G 
+W (2): T A 
+H (3): T C A 
+B (3): T C G 
+V (3): C A G 
+D (3): T A G 
+- (4): T C A G 
+N (4): T C A G 
+? (4): T C A G 
+
+ns = 10  	ls = 2022
+Reading sequences, sequential format..
+Reading seq # 1: seq1     Reading seq # 2: seq2     Reading seq # 3: seq3     Reading seq # 4: seq4     Reading seq # 5: seq5     Reading seq # 6: seq6     Reading seq # 7: seq7     Reading seq # 8: seq8     Reading seq # 9: seq9     Reading seq #10: seq10     
+Sequences read..
+Counting site patterns..  0:00
+         344 patterns at      674 /      674 sites (100.0%),  0:00
+2 ambiguous codons are seen in the data:
+ --- NNN
+Counting codons..
+
+  2   1:Sites   416.3 + 1584.7 = 2001.0	Diffs    42.0 +    8.0 =   50.0
+  3   1:Sites   415.7 + 1585.3 = 2001.0	Diffs    51.0 +    9.0 =   60.0
+  3   2:Sites   416.6 + 1584.4 = 2001.0	Diffs    53.0 +    5.0 =   58.0
+  4   1:Sites   412.2 + 1585.8 = 1998.0	Diffs   329.7 +   67.3 =  397.0
+NG86 unusable.
+
+  4   2:Sites   413.1 + 1584.9 = 1998.0	Diffs   329.7 +   69.3 =  399.0
+NG86 unusable.
+
+  4   3:Sites   412.5 + 1585.5 = 1998.0	Diffs   333.7 +   71.3 =  405.0
+NG86 unusable.
+
+  5   1:Sites   410.9 + 1563.1 = 1974.0	Diffs    52.0 +   11.0 =   63.0
+  5   2:Sites   411.8 + 1562.2 = 1974.0	Diffs    54.0 +    6.0 =   60.0
+  5   3:Sites   411.2 + 1562.8 = 1974.0	Diffs     8.0 +    2.0 =   10.0
+  5   4:Sites   407.7 + 1563.3 = 1971.0	Diffs   324.7 +   72.3 =  397.0
+NG86 unusable.
+
+  6   1:Sites   311.0 + 1180.0 = 1491.0	Diffs    32.0 +    4.0 =   36.0
+  6   2:Sites   311.9 + 1179.1 = 1491.0	Diffs    29.0 +    4.0 =   33.0
+  6   3:Sites   311.1 + 1179.9 = 1491.0	Diffs    41.0 +    4.0 =   45.0
+  6   4:Sites   309.9 + 1178.1 = 1488.0	Diffs   241.8 +   46.2 =  288.0
+NG86 unusable.
+
+  6   5:Sites   311.2 + 1179.8 = 1491.0	Diffs    43.0 +    4.0 =   47.0
+  7   1:Sites   410.8 + 1563.2 = 1974.0	Diffs    56.0 +    7.0 =   63.0
+  7   2:Sites   411.7 + 1562.3 = 1974.0	Diffs    47.0 +    2.0 =   49.0
+  7   3:Sites   411.1 + 1562.9 = 1974.0	Diffs    57.0 +    2.0 =   59.0
+  7   4:Sites   407.6 + 1563.4 = 1971.0	Diffs   320.7 +   67.3 =  388.0
+NG86 unusable.
+
+  7   5:Sites   411.2 + 1562.8 = 1974.0	Diffs    55.0 +    4.0 =   59.0
+  7   6:Sites   311.2 + 1179.8 = 1491.0	Diffs    36.0 +    3.0 =   39.0
+  8   1:Sites   415.5 + 1585.5 = 2001.0	Diffs    53.0 +    8.0 =   61.0
+  8   2:Sites   416.4 + 1584.6 = 2001.0	Diffs    44.0 +    4.0 =   48.0
+  8   3:Sites   415.8 + 1585.2 = 2001.0	Diffs    50.0 +    3.0 =   53.0
+  8   4:Sites   412.3 + 1585.7 = 1998.0	Diffs   320.7 +   68.3 =  389.0
+NG86 unusable.
+
+  8   5:Sites   411.0 + 1563.0 = 1974.0	Diffs    47.0 +    5.0 =   52.0
+  8   6:Sites   311.2 + 1179.8 = 1491.0	Diffs    31.0 +    3.0 =   34.0
+  8   7:Sites   410.9 + 1563.1 = 1974.0	Diffs    20.0 +    1.0 =   21.0
+  9   1:Sites   415.7 + 1585.3 = 2001.0	Diffs     7.0 +    1.0 =    8.0
+  9   2:Sites   416.6 + 1584.4 = 2001.0	Diffs    43.0 +    7.0 =   50.0
+  9   3:Sites   416.1 + 1584.9 = 2001.0	Diffs    54.0 +    8.0 =   62.0
+  9   4:Sites   412.5 + 1585.5 = 1998.0	Diffs   328.2 +   65.8 =  394.0
+NG86 unusable.
+
+  9   5:Sites   411.4 + 1562.6 = 1974.0	Diffs    54.0 +   10.0 =   64.0
+  9   6:Sites   311.0 + 1180.0 = 1491.0	Diffs    33.0 +    4.0 =   37.0
+  9   7:Sites   411.3 + 1562.7 = 1974.0	Diffs    56.0 +    6.0 =   62.0
+  9   8:Sites   415.8 + 1585.2 = 2001.0	Diffs    56.0 +    7.0 =   63.0
+ 10   1:Sites   415.9 + 1585.1 = 2001.0	Diffs    58.0 +    7.0 =   65.0
+ 10   2:Sites   416.8 + 1584.2 = 2001.0	Diffs    44.0 +    3.0 =   47.0
+ 10   3:Sites   416.2 + 1584.8 = 2001.0	Diffs    55.0 +    2.0 =   57.0
+ 10   4:Sites   412.7 + 1585.3 = 1998.0	Diffs   332.7 +   67.3 =  400.0
+NG86 unusable.
+
+ 10   5:Sites   411.4 + 1562.6 = 1974.0	Diffs    53.0 +    4.0 =   57.0
+ 10   6:Sites   311.1 + 1179.9 = 1491.0	Diffs    31.0 +    3.0 =   34.0
+ 10   7:Sites   411.3 + 1562.7 = 1974.0	Diffs    38.0 +    0.0 =   38.0
+ 10   8:Sites   416.0 + 1585.0 = 2001.0	Diffs    35.0 +    1.0 =   36.0
+ 10   9:Sites   416.2 + 1584.8 = 2001.0	Diffs    61.0 +    6.0 =   67.0
+
+      360 bytes for distance
+   335744 bytes for conP
+        0 bytes for fhK
+  5000000 bytes for space
+
+TREE #  1
+((6, (((5, 3), (10, (8, (7, 4)))), 2)), 9, 1);   MP score: -1
+  1342976 bytes for conP, adjusted
+
+    0.032213    0.030373    0.021950    0.012682    0.057456    0.030627    0.016199    0.019602    0.049992    0.008704    0.037569    0.000000    0.040020    1.472715    0.032288    0.026331    0.023359    2.000000    0.100000
+
+ntime & nrate & np:    17     2    19
+
+Bounds (np=19):
+   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000100   0.000100
+  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000 999.000000 999.000000
+
+np =    19
+lnL0 = -4805.478842
+
+Iterating by ming2
+Initial: fx=  4805.478842
+x=  0.03221  0.03037  0.02195  0.01268  0.05746  0.03063  0.01620  0.01960  0.04999  0.00870  0.03757  0.00000  0.04002  1.47272  0.03229  0.02633  0.02336  2.00000  0.10000
+
+  1 h-m-p  0.0000 0.0000 1817.2762 ++     4805.465508  m 0.0000    24 | 1/19
+  2 h-m-p  0.0000 0.0000 21281.5542 +CYYCC  4693.021910  4 0.0000    54 | 1/19
+  3 h-m-p  0.0000 0.0000 2531.2125 CCCCC  4687.784689  4 0.0000    84 | 1/19
+  4 h-m-p  0.0000 0.0001 243.3324 CCC    4687.372534  2 0.0000   110 | 1/19
+  5 h-m-p  0.0000 0.0001 257.6901 CCCC   4686.957586  3 0.0000   138 | 1/19
+  6 h-m-p  0.0001 0.0004  72.2060 YCC    4686.856264  2 0.0000   163 | 1/19
+  7 h-m-p  0.0000 0.0004 108.6503 CCC    4686.743658  2 0.0000   189 | 1/19
+  8 h-m-p  0.0000 0.0007 105.9152 CCC    4686.635798  2 0.0001   215 | 1/19
+  9 h-m-p  0.0000 0.0017 138.0995 +CCC   4686.062005  2 0.0002   242 | 1/19
+ 10 h-m-p  0.0001 0.0004 191.0522 CCCC   4685.774921  3 0.0001   270 | 1/19
+ 11 h-m-p  0.0001 0.0007 156.5834 YC     4685.643730  1 0.0001   293 | 1/19
+ 12 h-m-p  0.0003 0.0034  29.2769 YC     4685.629576  1 0.0001   316 | 1/19
+ 13 h-m-p  0.0001 0.0022  17.8604 YC     4685.624298  1 0.0000   339 | 1/19
+ 14 h-m-p  0.0003 0.0149   2.6417 CC     4685.618835  1 0.0003   363 | 1/19
+ 15 h-m-p  0.0001 0.0042  12.0170 +YC    4685.589638  1 0.0002   387 | 1/19
+ 16 h-m-p  0.0001 0.0153  24.6835 ++YCCC  4684.051103  3 0.0029   416 | 0/19
+ 17 h-m-p  0.0001 0.0006 970.1877 CYCC   4682.995486  3 0.0001   443 | 0/19
+ 18 h-m-p  0.0000 0.0002 396.8600 YCCC   4682.172082  3 0.0001   470 | 0/19
+ 19 h-m-p  0.0023 0.0116   4.6971 ++     4681.897264  m 0.0116   492 | 1/19
+ 20 h-m-p  0.0003 0.0018 197.5726 YYC    4681.708727  2 0.0002   516 | 1/19
+ 21 h-m-p  0.1177 8.0000   0.3954 +YCCC  4679.432148  3 1.1040   544 | 1/19
+ 22 h-m-p  1.3660 6.8299   0.1405 CCC    4677.045115  2 1.3675   588 | 0/19
+ 23 h-m-p  0.0005 0.0023 341.9514 -CCC   4676.968214  2 0.0000   633 | 0/19
+ 24 h-m-p  1.2767 7.1010   0.0116 YCCC   4676.156025  3 2.5366   660 | 0/19
+ 25 h-m-p  0.6111 3.0556   0.0094 +YC    4675.741238  1 1.6768   703 | 0/19
+ 26 h-m-p  0.5504 2.7520   0.0091 +YC    4675.623983  1 1.7454   746 | 0/19
+ 27 h-m-p  0.5629 2.8145   0.0089 YC     4675.611004  1 1.2627   788 | 0/19
+ 28 h-m-p  1.3501 6.7503   0.0016 YC     4675.608470  1 3.0485   830 | 0/19
+ 29 h-m-p  0.7528 3.7642   0.0019 +C     4675.605330  0 3.1125   872 | 0/19
+ 30 h-m-p  0.1220 0.6098   0.0026 ++     4675.604677  m 0.6098   913 | 1/19
+ 31 h-m-p  0.3415 8.0000   0.0046 C      4675.604637  0 0.0770   954 | 1/19
+ 32 h-m-p  0.2200 8.0000   0.0016 +C     4675.604389  0 0.8451   995 | 1/19
+ 33 h-m-p  1.6000 8.0000   0.0001 Y      4675.604381  0 0.8936  1035 | 1/19
+ 34 h-m-p  1.6000 8.0000   0.0000 Y      4675.604381  0 1.0369  1075 | 1/19
+ 35 h-m-p  0.6588 8.0000   0.0000 Y      4675.604381  0 0.6588  1115 | 1/19
+ 36 h-m-p  1.6000 8.0000   0.0000 --Y    4675.604381  0 0.0250  1157 | 1/19
+ 37 h-m-p  0.0160 8.0000   0.0000 -----Y  4675.604381  0 0.0000  1202
+Out..
+lnL  = -4675.604381
+1203 lfun, 1203 eigenQcodon, 20451 P(t)
+
+d123[*] =  0.00354  0.00118  0.03761  average  0.01411
+    [B] =  0.04635  0.04720  0.04720  average  0.04692
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00117 dS =  0.04692 d4 =  0.04875 (353.6 four-fold sites)
+             dN*=  0.00113 dS*=  0.05209 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00354  0.00118  0.03756  average  0.01409
+    [B] =  0.04629  0.04714  0.04714  average  0.04686
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00117 dS =  0.04686 d4 =  0.04869 (353.6 four-fold sites)
+             dN*=  0.00113 dS*=  0.05203 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00081  0.00027  0.00859  average  0.00322
+    [B] =  0.01059  0.01078  0.01078  average  0.01072
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00027 dS =  0.01072 d4 =  0.01113 (353.6 four-fold sites)
+             dN*=  0.00026 dS*=  0.01190 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00122  0.00040  0.01290  average  0.00484
+    [B] =  0.01589  0.01618  0.01618  average  0.01609
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00040 dS =  0.01609 d4 =  0.01672 (353.6 four-fold sites)
+             dN*=  0.00039 dS*=  0.01786 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00469  0.00156  0.04982  average  0.01869
+    [B] =  0.06140  0.06252  0.06252  average  0.06215
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00155 dS =  0.06215 d4 =  0.06457 (353.6 four-fold sites)
+             dN*=  0.00149 dS*=  0.06900 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00096  0.00032  0.01024  average  0.00384
+    [B] =  0.01262  0.01285  0.01285  average  0.01277
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00032 dS =  0.01277 d4 =  0.01327 (353.6 four-fold sites)
+             dN*=  0.00031 dS*=  0.01418 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00048  0.00016  0.00512  average  0.00192
+    [B] =  0.00631  0.00642  0.00642  average  0.00639
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00016 dS =  0.00639 d4 =  0.00664 (353.6 four-fold sites)
+             dN*=  0.00015 dS*=  0.00709 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00097  0.00032  0.01024  average  0.00384
+    [B] =  0.01262  0.01285  0.01285  average  0.01278
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00032 dS =  0.01278 d4 =  0.01328 (353.6 four-fold sites)
+             dN*=  0.00031 dS*=  0.01419 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00278  0.00092  0.02951  average  0.01107
+    [B] =  0.03637  0.03703  0.03703  average  0.03681
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00092 dS =  0.03681 d4 =  0.03825 (353.6 four-fold sites)
+             dN*=  0.00088 dS*=  0.04087 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00139  0.00046  0.01473  average  0.00553
+    [B] =  0.01816  0.01849  0.01849  average  0.01838
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00046 dS =  0.01838 d4 =  0.01910 (353.6 four-fold sites)
+             dN*=  0.00044 dS*=  0.02041 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00105  0.00035  0.01111  average  0.00417
+    [B] =  0.01369  0.01394  0.01394  average  0.01386
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00035 dS =  0.01386 d4 =  0.01440 (353.6 four-fold sites)
+             dN*=  0.00033 dS*=  0.01539 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00200  0.00066  0.02118  average  0.00795
+    [B] =  0.02611  0.02659  0.02659  average  0.02643
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00066 dS =  0.02643 d4 =  0.02746 (353.6 four-fold sites)
+             dN*=  0.00063 dS*=  0.02934 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00000  0.00000  0.00000  average  0.00000
+    [B] =  0.00000  0.00000  0.00000  average  0.00000
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00000 dS =  0.00000 d4 =  0.00000 (353.6 four-fold sites)
+             dN*=  0.00000 dS*=  0.00000 S* = 515.11 N* =1506.89
+
+d123[*] =  0.11019  0.03663  1.16948  average  0.43877
+    [B] =  1.44129  1.46771  1.46771  average  1.45890
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.03641 dS =  1.45890 d4 =  1.51584 (353.6 four-fold sites)
+             dN*=  0.03504 dS*=  1.61982 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00261  0.00087  0.02770  average  0.01039
+    [B] =  0.03414  0.03476  0.03476  average  0.03455
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00086 dS =  0.03455 d4 =  0.03590 (353.6 four-fold sites)
+             dN*=  0.00083 dS*=  0.03836 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00071  0.00024  0.00753  average  0.00283
+    [B] =  0.00928  0.00945  0.00945  average  0.00939
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00023 dS =  0.00939 d4 =  0.00976 (353.6 four-fold sites)
+             dN*=  0.00023 dS*=  0.01043 S* = 515.11 N* =1506.89
+
+d123[*] =  0.00042  0.00014  0.00451  average  0.00169
+    [B] =  0.00555  0.00566  0.00566  average  0.00562
+accept  =  0.07645  0.02496  0.79681
+
+w =  0.02496 dN =  0.00014 dS =  0.00562 d4 =  0.00584 (353.6 four-fold sites)
+             dN*=  0.00014 dS*=  0.00624 S* = 515.11 N* =1506.89
+end of tree file.
+
+Time used:  0:42
+
+ 451:  ..................................................
+ 501:  ..................................................
+ 551:  ..................................................
+ 601:  ..................................................
+ 651:  ........................
+# Positively selected sites (cumulative)
+# Significance  Number sites  Number Random
+# 99% corrected      0       0
+# 95% corrected      0       0
+# 99%                0       0
+# 95%                0       0
+
+# Conserved sites (cumulative)
+# Significance  Number sites
+# 99% corrected      0
+# 95% corrected      0
+# 99%              459
+# 95%              606
+	got slr results msa561.slr
+	expect results in msa561.paml
+	running paml...
+	got paml results

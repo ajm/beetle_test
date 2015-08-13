@@ -22,7 +22,7 @@ biomart_url = "http://metazoa.ensembl.org/biomart/martservice"
 
 biomart_query = """<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Query>
-<Query  virtualSchemaName = "metazoa_mart_26" formatter = "CSV" header = "0" uniqueRows = "0" count = "" datasetConfigVersion = "0.7" >
+<Query  virtualSchemaName = "metazoa_mart_28" formatter = "CSV" header = "0" uniqueRows = "0" count = "" datasetConfigVersion = "0.7" >
             
     <Dataset name = "tcastaneum_eg_gene" interface = "default" >
         <Attribute name = "ensembl_gene_id" />
