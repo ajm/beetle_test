@@ -40,10 +40,11 @@ def read_omegas(fname) :
 			# all omegas in file omegas for counting the unfiltered mean
 			file_omegas.append(omg)
 
-			# filtering
+			# filtering, by ! or by <=2
+			# if not "!" in line :
 			if omg <= 2 :
-				all_omegas.append(omg)
-				filtered_file_omegas.append(omg)
+                                all_omegas.append(omg)
+                                filtered_file_omegas.append(omg)
 
 	# get the means of the file and add them to the total
 	all_means.append(sum(file_omegas)/len(file_omegas))
