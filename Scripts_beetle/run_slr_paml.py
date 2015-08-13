@@ -288,7 +288,6 @@ def run_programs(fname) :
 
 def file_cleanup(originalname, message) :
     os.rename('%s_.config' % originalname, '%s.config' % originalname)
-    os.rename('%s_.paml' % originalname, '%s.paml' % originalname)
     os.remove('%s_.fasta' % originalname)
     os.remove('%s_.tree' % originalname)
 
@@ -296,6 +295,11 @@ def file_cleanup(originalname, message) :
         os.remove('%s_.phy.reduced' % originalname)
     except OSError :
         pass
+
+    try :
+	os.rename('%s_.paml' % originalname, '%s.paml' % originalname)
+    except OSError :
+	pass
 
     os.rename('%s_.phy' % originalname, '%s.phy' % originalname)
     if os.path.isfile('%s_.slr' % originalname) :
