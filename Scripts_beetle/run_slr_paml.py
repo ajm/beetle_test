@@ -304,7 +304,11 @@ def file_cleanup(originalname, message) :
     os.rename('%s_.phy' % originalname, '%s.phy' % originalname)
     if os.path.isfile('%s_.slr' % originalname) :
         os.rename('%s_.slr' % originalname, '%s.slr' % originalname)
-    shutil.rmtree('%stmp' % originalname)
+
+    try :
+    	shutil.rmtree('%stmp' % originalname)
+    except OSError :
+	pass
 
     statusfile = '%s.stats' % originalname
     f = open(statusfile, 'w')
